@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro-exercicio</title>
+</head>
+<body>
+    <h1>primeira-aula</h1>
+
+    <!-- fiz algumas coisas diferente, pois estava relembrando oque ja tinha estudado mas seguir a logica da aula -->
+    <script>
+        
+     
+var meunome = "Raphael Siqueira";
+var minhaIdade = 22;
+const valordePI = 3.14;
+let EhEstudante = true;
+let NaoEestudante = false;
+var anoAtual = 2025
+
+console.log(meunome);
+console.log(minhaIdade, "minha idade");
+console.log(valordePI);
+
+if (meunome == "Raphael Siqueira") {
+    console.log(EhEstudante, "deu certo");
+    } else{
+        console.log(NaoEestudante, "deu errado");
+}
+
+var AnoDeNascimento = (anoAtual - minhaIdade - 1);
+console.log(AnoDeNascimento);
+
+if (minhaIdade > 18){
+    console.log("e maior de idade tem", minhaIdade, "anos"); 
+    } else{(" e menor de idade");
+    }
+
+for ( let i = 0; i <= 10; i++){
+       console.log(i);
+    } 
+    console.log("utilizando for");
+
+var contador = 1
+while( contador <= 10) {
+    console.log(contador);
+    contador++;
+}
+console.log("utilizando while");
+
+var frutas = ["maça", "banana", "laranja"];
+    console.log(frutas[0]); // prints "maça"
+    console.log(frutas[1]); // prints "banana"
+    console.log(frutas[2]); // prints "laranja"
+
+frutas.push("uva") ;
+for (let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
+
+let nulo = null
+
+console.log(typeof nulo, 'nulo');
+console.log(typeof meunome, 'meu nome tipo string');
+console.log(typeof contador, 'numeros do contador de 1 a 10');
+console.log(typeof EhEstudante, " ehestudante");
+console.log(typeof valordePI, ' valor de pi');
+
+    </script>
+    
+</body>
+</html>
